@@ -1,6 +1,6 @@
 package com.ash.journal.entities;
 
-public class userent {
+public class User {
     private String id;
     private String username;
     private String password;
