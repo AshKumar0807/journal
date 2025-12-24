@@ -17,7 +17,7 @@ public class JournalController {
     }
 
     //POST - Create Journal
-    @PostMapping(consumes = "application/json")
+    @PostMapping(value ="/post", consumes = "application/json")
     public Journal createJournal(@RequestBody Journal journal) {
         return journalService.addJournal(journal);
     }
